@@ -1,1 +1,1 @@
-# ponderadaSemana9
+Consegui baixar o signoz e abrir a interface dele, porem de forma alguma eu nao consegui de jeito nenhum rodar o codigo GO, por algum erro no GCC(MinGW), ele dizia que o arquvio provavelmente nao foi baixado corretamente e de jeito nenhum rodava.
