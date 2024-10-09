@@ -23,11 +23,10 @@ import (
 )
 
 var (
-	serviceName  = os.Getenv("SERVICE_NAME") // Correção: o nome da variável de ambiente é "SERVICE_NAME"
-	collectorURL = os.Getenv("OTEL_EXPORTER_OTLP_ENDPOINT") // Correção: "OTEL_EXPORTER_OTLP_ENDPOINT"
-	insecure     = os.Getenv("INSECURE_MODE") // Já está correto
+	serviceName  = os.Getenv("SERVICE_NAME")
+	collectorURL = os.Getenv("OTEL_EXPORTER_OTLP_ENDPOINT")
+	insecure     = os.Getenv("INSECURE_MODE")
 )
-
 
 func initTracer() func(context.Context) error {
 
