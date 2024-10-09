@@ -6,6 +6,9 @@ COnsegui fazer o signoz rodar apesar de ter tido alguns erros , que talvez tenha
 ![Erro Solucionado](erro_migrator.png)
 <br>
 
+# Docker rodando<br>
+![Erro Solucionado](docker_rodando.png)
+
 
 # Signoz rodando
 ![Signoz Rodando](signoz_rodando.png)
